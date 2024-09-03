@@ -1,0 +1,147 @@
+/*******************/
+/* HERO SECTION */
+/*******************/
+.section-hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #cde3ccb5; */
+  padding: 3rem 0 9.6rem 0;
+  height: 90vh;
+  padding-left: 10rem;
+  position: relative; /* Or position: absolute; */
+  z-index: 0;
+  border-bottom: 0.25rem solid #000;
+}
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  align-items: center;
+}
+
+.hero-text-box {
+  width: 50rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  font-family: "Arsenal", sans-serif;
+}
+.button-link {
+  display: inline-block;
+
+  /* margin: 10px 0; */
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.3rem 2.1rem;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.886);
+  background-color: #16423c;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 2rem;
+}
+
+.button-link:hover {
+  background-color: #2e7a70;
+}
+.button2-link {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1.3rem 2.1rem;
+  border-radius: 5px;
+  background-color: #6a9c89;
+  color: #fff;
+  border: none;
+
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button2-link:hover {
+  background-color: #8cb9a8;
+}
+
+.hero-img-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.image1 {
+  height: 25rem;
+  width: 25rem;
+  /* border-radius: 50%; */
+  border: 3px solid #000;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 2.4rem 4.8rem rgb(0, 0, 0, 0.075);
+  /* border-radius: 11px; */
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.image1:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgb(0, 0, 0, 0.06);
+}
+
+.mine-linker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mine-linker-link {
+  display: flex;
+  gap: 1rem;
+}
+
+.mine-linker ul {
+  list-style: none;
+}
+.mine-linker-list {
+  display: flex;
+  gap: 2.2rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.mine-linker-link:link,
+.mine-linker-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #6a9c89;
+  font-weight: 500;
+  font-size: 1.8rem;
+  /* Put transition on original state */
+  transition: all 0.3s;
+}
+.mine-linker-link:hover,
+.mine-linker-link:active {
+  color: #000;
+  border-bottom: 3px #000 solid;
+}

@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+/*
+--- 01 Typography system
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Font weights:
+DEFAULT: 400
+Medium:500
+Semi-bold:600 
+Bold:700
+
+Line heights: 
+DEFAULT: 1
+Small:1.05
+medium: 1.2
+Paragraph default: 1.6
+
+Letter-spacing
+0.5px
+0.75px
+
+
+--- 02 COLOURS
+Primary color: #16423C
+-Tints: #fff4e6, #ffe8cc
+-Shades: #6A9C89, #C4DAD2
+-Accents: 
+-Greys: #E9EFEC, #495057,
+
+---05 Shadows
+
+---06 Border-radius
+Default:9px;
+Medium: 11px;
+
+--- 07 Whitespace
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/*******************/
+/* General */
+/*******************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  /* font-size: 10px; */
+  /* Percentage of user's browser font-size setting  */
+  font-size: 62.5%;
+}
+body {
+  font-family: "Arsenal", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #e9efec;
+
+  /* background-color: #ffe8cc; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading-primary,
+.heading-secondary,
+.heading-teriary {
+  font-weight: 700;
+  color: #333;
+  /* color: #45260a; */
+  /* color: #343a40; */
+  letter-spacing: -0.5px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 2.2rem;
+  padding-top: 1.2rem;
+}
+.heading-tertiary {
+  font-size: 2.3rem;
+  line-height: 1.2;
+  margin-top: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.text {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  font-family: "Arsenal", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-bottom: black solid;
+  padding-bottom: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  /* padding: 2rem; */
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  margin-bottom: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30rem;
+  background-color: aliceblue;
+  box-shadow: 0 2.4rem 4.8rem rgb(0, 0, 0, 0.075);
+  border-radius: 2px;
+  overflow: hidden;
+  transition: all 0.6s ease;
+  /* padding: 2rem; */
+  height: 34rem;
+}
+
+.card-div:hover,
+.card-div:hover img {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgb(0, 0, 0, 0.06);
+  filter: grayscale(0%);
+  transition: filter 1s ease;
+}
+
+.E-img {
+  height: 150px;
+  width: 300px;
+  border-radius: 0px;
+  filter: grayscale(60%);
+}
+
+.E-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  list-style: square;
+  font-size: 1.7rem;
+  list-style: none;
+  max-width: 17rem;
+}
+
+.E-list li {
+  margin-bottom: 1rem;
+}
+
+.list-line {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.NIH {
+  border-bottom: 3px #ed1b34 solid;
+}
+
+.Oslomet {
+  border-bottom: 3px #fedc00 solid;
+}
+
+.UIO {
+  border-bottom: 3px #de0000 solid;
+}
+
+.card-subheading {
+  font-size: 1.7rem;
+  margin-bottom: 2.5rem;
 }
