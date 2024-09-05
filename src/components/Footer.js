@@ -13,7 +13,7 @@ function Footer() {
             All rights reserved.
           </p>
         </div>
-        <div>
+        <div className="footer-list">
           <h2 className="heading-tertiary">Links</h2>
           <ul className="list">
             <li className="list-element">
@@ -30,7 +30,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="footer-list">
           <h1 className="heading-tertiary">Contact Me</h1>
           <ul>
             <li className="list-element">

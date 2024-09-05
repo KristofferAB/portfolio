@@ -183,3 +183,45 @@ body {
   font-size: 1.7rem;
   margin-bottom: 2.5rem;
 }
+
+@media (max-width: 1050px) {
+  .card-div {
+    width: 22.1rem;
+  }
+  .E-img {
+    width: 221px;
+  }
+}
+
+@media (max-width: 857px) {
+  .button-link {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Tablets and smaller devices */
+@media (max-width: 780px) {
+  .card-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #education {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-div {
+    width: 35rem;
+  }
+  .E-img {
+    width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-div {
+    width: 30rem;
+  }
+  .E-img {
+    width: 300px;
+  }
+}

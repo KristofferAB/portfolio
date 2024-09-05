@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Nav />
         <Routes>
-          <Route path="/" Component={LandingPage} />
+          <Route path="/portfolio" Component={LandingPage} />
         </Routes>
       </Router>
     </>

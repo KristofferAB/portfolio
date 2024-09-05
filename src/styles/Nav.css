@@ -3,7 +3,7 @@
 /*******************/
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 10vh;
   /* background-color: #cde3cc; */
@@ -39,11 +39,12 @@ nav {
 }
 
 .nav-links {
-  width: 20%;
+  /* width: 20%; */
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  padding-right: 2rem;
 }
 .logo-1 {
   width: 50px;

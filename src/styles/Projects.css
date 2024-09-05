@@ -100,3 +100,27 @@
   background-color: #086528;
   color: #fff;
 }
+
+/* Tablets and smaller devices */
+@media (max-width: 768px) {
+  .project-box {
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    border-bottom: 1px #000 solid;
+    padding-bottom: 2rem;
+  }
+  .project-box:nth-child(odd) {
+    flex-direction: column;
+  }
+  .project-box:last-child {
+    border-bottom: 0;
+  }
+  .project-img {
+    order: 2; /* Place .project-img after .project-description */
+  }
+
+  .project-description {
+    align-items: center;
+  }
+}
