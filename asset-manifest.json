@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bf178b64.css",
-    "main.js": "/portfolio/static/js/main.557535bb.js",
-    "static/media/Ole-Johan_Dahls_hus_(UIO).jfif": "/portfolio/static/media/Ole-Johan_Dahls_hus_(UIO).4269e49cc872374c63e4.jfif",
-    "static/media/Norges_idrettshøgskole(NIH).jpg": "/portfolio/static/media/Norges_idrettshøgskole(NIH).87ef76fcfbb4499e6d76.jpg",
-    "static/media/Pilestredet-32(OsloMet).jpg": "/portfolio/static/media/Pilestredet-32(OsloMet).e9f86d9ca9badd7c360e.jpg",
-    "static/media/meg4.jpg": "/portfolio/static/media/meg4.c2f79bf1026237aa6ed2.jpg",
-    "static/media/Meg2.png": "/portfolio/static/media/Meg2.9f801ae6dac196b733fd.png",
-    "static/media/meg5.jpg": "/portfolio/static/media/meg5.21b6ec1f220090122ec3.jpg",
-    "static/media/meg3.jpg": "/portfolio/static/media/meg3.ee8d11b8db151d675b62.jpg",
-    "static/media/Clock.png": "/portfolio/static/media/Clock.788c8403f9d89f16408e.png",
-    "static/media/EnTurM.png": "/portfolio/static/media/EnTurM.75c91d08cf01bb1c11e4.png",
-    "static/media/Bilde av meg.jpg": "/portfolio/static/media/Bilde av meg.db3489455196bd12ae53.jpg",
-    "static/media/Master.png": "/portfolio/static/media/Master.1068a2daa576c5f38533.png",
-    "static/media/VScore.png": "/portfolio/static/media/VScore.5e7b79f0a93b208060bb.png",
-    "static/media/logo.png": "/portfolio/static/media/logo.574f2adc81124a1c76c7.png",
-    "index.html": "/portfolio/index.html",
-    "main.bf178b64.css.map": "/portfolio/static/css/main.bf178b64.css.map",
-    "main.557535bb.js.map": "/portfolio/static/js/main.557535bb.js.map"
+    "main.css": "/stoff1602.github.io/portfolio/static/css/main.ef6cfd07.css",
+    "main.js": "/stoff1602.github.io/portfolio/static/js/main.49c32928.js",
+    "static/media/Ole-Johan_Dahls_hus_(UIO).jfif": "/stoff1602.github.io/portfolio/static/media/Ole-Johan_Dahls_hus_(UIO).4269e49cc872374c63e4.jfif",
+    "static/media/Norges_idrettshøgskole(NIH).jpg": "/stoff1602.github.io/portfolio/static/media/Norges_idrettshøgskole(NIH).87ef76fcfbb4499e6d76.jpg",
+    "static/media/Pilestredet-32(OsloMet).jpg": "/stoff1602.github.io/portfolio/static/media/Pilestredet-32(OsloMet).e9f86d9ca9badd7c360e.jpg",
+    "static/media/meg4.jpg": "/stoff1602.github.io/portfolio/static/media/meg4.c2f79bf1026237aa6ed2.jpg",
+    "static/media/Meg2.png": "/stoff1602.github.io/portfolio/static/media/Meg2.9f801ae6dac196b733fd.png",
+    "static/media/meg5.jpg": "/stoff1602.github.io/portfolio/static/media/meg5.21b6ec1f220090122ec3.jpg",
+    "static/media/meg3.jpg": "/stoff1602.github.io/portfolio/static/media/meg3.ee8d11b8db151d675b62.jpg",
+    "static/media/Clock.png": "/stoff1602.github.io/portfolio/static/media/Clock.788c8403f9d89f16408e.png",
+    "static/media/EnTurM.png": "/stoff1602.github.io/portfolio/static/media/EnTurM.75c91d08cf01bb1c11e4.png",
+    "static/media/Bilde av meg.jpg": "/stoff1602.github.io/portfolio/static/media/Bilde av meg.db3489455196bd12ae53.jpg",
+    "static/media/Master.png": "/stoff1602.github.io/portfolio/static/media/Master.1068a2daa576c5f38533.png",
+    "static/media/VScore.png": "/stoff1602.github.io/portfolio/static/media/VScore.5e7b79f0a93b208060bb.png",
+    "static/media/logo.png": "/stoff1602.github.io/portfolio/static/media/logo.574f2adc81124a1c76c7.png",
+    "index.html": "/stoff1602.github.io/portfolio/index.html",
+    "main.ef6cfd07.css.map": "/stoff1602.github.io/portfolio/static/css/main.ef6cfd07.css.map",
+    "main.49c32928.js.map": "/stoff1602.github.io/portfolio/static/js/main.49c32928.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf178b64.css",
-    "static/js/main.557535bb.js"
+    "static/css/main.ef6cfd07.css",
+    "static/js/main.49c32928.js"
   ]
 }
