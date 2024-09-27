@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.614684c5.css",
-    "main.js": "/portfolio/static/js/main.9f6b88c1.js",
+    "main.js": "/portfolio/static/js/main.081937c9.js",
     "static/media/Ole-Johan_Dahls_hus_(UIO).jfif": "/portfolio/static/media/Ole-Johan_Dahls_hus_(UIO).4269e49cc872374c63e4.jfif",
     "static/media/Norges_idrettshøgskole(NIH).jpg": "/portfolio/static/media/Norges_idrettshøgskole(NIH).87ef76fcfbb4499e6d76.jpg",
     "static/media/Pilestredet-32(OsloMet).jpg": "/portfolio/static/media/Pilestredet-32(OsloMet).e9f86d9ca9badd7c360e.jpg",
@@ -17,10 +17,10 @@
     "static/media/logo.png": "/portfolio/static/media/logo.574f2adc81124a1c76c7.png",
     "index.html": "/portfolio/index.html",
     "main.614684c5.css.map": "/portfolio/static/css/main.614684c5.css.map",
-    "main.9f6b88c1.js.map": "/portfolio/static/js/main.9f6b88c1.js.map"
+    "main.081937c9.js.map": "/portfolio/static/js/main.081937c9.js.map"
   },
   "entrypoints": [
     "static/css/main.614684c5.css",
-    "static/js/main.9f6b88c1.js"
+    "static/js/main.081937c9.js"
   ]
 }
